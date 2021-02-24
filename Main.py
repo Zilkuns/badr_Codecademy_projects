@@ -20,5 +20,5 @@ with open("insurance.csv",newline="") as csv_file:
         insurances["insurance-"+str(j)] =  internal_dict
         j +=1
 for key , values in insurances.items():
-    print(key +  "values are:")
+    print(key +  "  values are:")
     print(values)
